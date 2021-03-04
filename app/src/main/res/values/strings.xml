@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myapplication1</string>
+    <string name="Name">Enter Name</string>
+    <string name="CALL">Mobile No</string>
+    <string name="EMAIL">Enter Mail</string>
+    <string name="WEB">Enter Website</string>
+    <string name="Address">Enter Address</string>
+    <string name="DOB">Date of Birth</string>
+</resources>

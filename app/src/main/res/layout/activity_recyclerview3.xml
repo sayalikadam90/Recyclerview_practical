@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".recyclerview3">
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_marginBottom="490dp"
+            android:background="@drawable/orangecolor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/comp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+
+        android:text="Back to Home"
+        android:textSize="20dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="120dp"
+            android:text="appsinppuper"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="160dp"
+            android:text="developer@appsniapp.com"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"></TextView>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="30dp"
+       android:layout_marginLeft="35dp"
+       android:layout_marginTop="260dp"
+       android:text="Account Info"
+       android:textColor="@color/black"
+       android:textSize="30dp"
+       android:textStyle="bold"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="320dp"
+       android:text="Name"
+       android:textColor="@color/black"
+       android:textSize="18dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="380dp"
+       android:text="Mobile"
+       android:textColor="@color/black"
+       android:textSize="18dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="450dp"
+       android:text="Email"
+       android:textColor="@color/black"
+       android:textSize="18dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="520dp"
+            android:text="Address"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"></TextView>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="580dp"
+       android:text="D.O.B"
+       android:textColor="@color/black"
+       android:textSize="18dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+   <TextView
+       android:id="@+id/name1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="350dp"
+       android:text="sayali4"
+       android:textColor="@color/cardview_dark_background"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+   <TextView
+       android:id="@+id/mob1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="420dp"
+       android:text="sayali3"
+       android:textColor="@color/cardview_dark_background"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="490dp"
+            android:text="sayali2"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"></TextView>
+
+   <TextView
+       android:id="@+id/address1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="550dp"
+       android:text="sayali1"
+       android:textColor="@color/cardview_dark_background"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+
+   <TextView
+       android:id="@+id/dob1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="610dp"
+       android:text="sayali"
+       android:textColor="@color/cardview_dark_background"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></TextView>
+
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="70dp"
+       android:layout_marginTop="310dp"
+       android:src="@drawable/ic_person"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></ImageView>
+
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="70dp"
+       android:layout_marginTop="370dp"
+       android:src="@drawable/ic_mobile"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></ImageView>
+
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="70dp"
+       android:layout_marginTop="440dp"
+       android:src="@drawable/ic_email"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></ImageView>
+
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="70dp"
+       android:layout_marginTop="500dp"
+       android:src="@drawable/ic_home"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></ImageView>
+
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="70dp"
+       android:layout_marginTop="570dp"
+       android:src="@drawable/ic_birth"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints"></ImageView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
